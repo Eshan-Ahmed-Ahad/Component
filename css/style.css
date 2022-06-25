@@ -1,0 +1,106 @@
+*{
+    margin:0px;
+    padding:0px;
+    font-family: "Nunito Sans";
+    text-transform: capitalize
+}
+body {
+    text-transform: capitalize;
+    font-family: "Nunito Sans";
+}
+.section2  h1{
+color:#034A97;
+font-weight: 800;
+font-size: 33px;
+}
+.star  span { 
+    font-weight: 700;
+    font-size: 21px;
+    color: rgb(99, 99, 99);
+}
+
+.Se2  {
+    color: #034A97;
+    margin-top: 5px;
+    font-size: 18px;
+}
+
+.location {
+    color: #FC4D04;
+    font-weight: 500;
+    font-size: 20px;
+}
+
+.Box1 {
+    box-sizing: border-box;
+    border:2.4px solid #034A97;
+    border-radius: 10px;
+    padding-left:10px;
+    padding-right:10px;
+    padding-top:5px;
+    height: 230px !important;
+}
+.Box1  span {
+    font-size: 20px;
+    color: #034A97;
+    font-weight: 700;
+    margin-top: 5px !important;
+}
+.Box1 p {
+    font-size: 18px;
+    color:  rgb(99, 99, 99);
+    font-weight: 500;
+    margin-top: 2px;
+
+}
+
+.phone  span{
+    color: #FC4D04;
+    font-weight: 500;
+    text-transform: uppercase;
+    font-size: 15px;
+}
+
+.Email span {
+    color: #FC4D04;
+    font-weight: 500;
+    text-transform: uppercase;
+    font-size: 15px;
+}
+
+
+/* Makeing Accrodion */
+.accordion-item {
+    background-color: #fff;
+    border:2.4px solid #034A97 !important;
+    margin-top: 10px;
+    border-radius:5px !important;
+}
+.Button1::after {
+    flex-shrink: 0;
+    width: 3.25rem;
+    height: 2.25rem;
+    margin-left: auto;
+    content: "";
+    background-image: url(../img/star/chevron-right.svg);
+    background-repeat: no-repeat;
+    background-size: 2.25rem;
+    transition: transform 0.2s ease-in-out 0s;
+}
+.Button2::after{
+    flex-shrink: 0;
+    width: 3.25rem;
+    height: 2.25rem;
+    margin-left: auto;
+    content: "";
+    background-image: url(../img/star/rightIcon.svg);
+    background-repeat: no-repeat;
+    background-size: 2.25rem;
+    transition: transform 0.2s ease-in-out 0s;
+}
+
+.section4 span {
+    font-size: 25px;
+    color: #034A97;
+    font-weight: 600;
+}
